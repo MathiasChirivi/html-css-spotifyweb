@@ -55,6 +55,15 @@
     white-space: nowrap;
 }
 
+.boxCrea{
+    min-height: 30px;
+    min-width: 30px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /***********************************************
 **********************MAIN*********************/
