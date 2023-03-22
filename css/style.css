@@ -1,0 +1,39 @@
+/***************************
+**********CSS***************
+***************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+}
+
+.sidebar{
+    width: 15%;
+    background: rosybrown;
+    height: calc(100vh - 120px);
+}
+
+.block{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoSmall{
+    display: none;
+}
+
+.navigation{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.home, .search, .libreria{
+    display: flex;
+    align-items: center;
+}
