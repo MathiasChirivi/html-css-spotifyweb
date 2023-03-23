@@ -389,3 +389,40 @@ i.far.fa-folder {
     width: 20%;
     background-color: white;
 }
+
+/****************************************
+***************MEDIA QUERY***************
+****************************************/
+/* MOBILE */
+@media screen and (max-width:480px) {
+    nav{
+        width: 50px;
+    }
+    main{
+        width: calc(100% - 50px);
+    }
+    .firstContentSection{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .buttonUpgrade{
+        width: calc(100% - 50px);
+    }
+    .logoSpotify, 
+    .subTitleSidebar ,
+    .nomePlaylistStyle,
+    .boxCrea, 
+    .titlePlaylist,
+    .blockScroll, 
+    .TextDecoration, 
+    .colorText{
+        display: none;
+    }
+    .logoSmall{
+        display: block;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
