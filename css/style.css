@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -50,7 +51,18 @@ nav{
     display: none;
 }
 
+.flex:hover{
+    border-left: 3px solid #adff2f;
+}
+
 .flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.flexDirection{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,6 +78,7 @@ nav{
     align-items: center;
 }
 .subTitleSidebar{
+    color: white;
     margin-left: 10px;
     white-space: nowrap;
 }
@@ -117,6 +130,7 @@ ul{
 }
 
 #TextDecoration{
+    color: white;
     text-decoration: none;
 }
 
@@ -143,7 +157,7 @@ ul{
 
 main {
     width: calc(100% - 260px);
-    background-color: #52565e;
+    background-color: #141922;
     padding-top: 100px;
     overflow-y: scroll;
 }
@@ -153,7 +167,7 @@ main {
     top: 0;
     height: 100px;
     width: 100%;
-    background-color: grey;
+    background-color:rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
 
@@ -164,6 +178,93 @@ main {
     justify-content: flex-end;
     align-items: center;
     padding-right: 30px;
+}
+
+#buttonUpgrade{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    font-size: 17px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+}
+
+.secondSection{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.secondContentSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 100%;
+}
+
+.GeneriAlbumText:hover {
+    transition: 1s;
+    border-bottom: 5px solid #adff2f;
+}
+
+.decorationGeneri{
+    color: white;
+    text-decoration: none;
+}
+
+/* Pagina in row */
+
+.thirdSection{
+    padding-left: 12px;
+    color: white;
+}
+
+/* First Row */
+.recentlyAlbum{
+    display: flex;
+    justify-content: space-between;
+}
+
+.albumListen{
+    padding: 5px;
+    width: 15%;
+    margin: 10px;
+    text-align: center;
+}
+
+.album{
+    width: 100%;
+}
+
+.thirdSection, h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Second Row */
+
+.fourthContentSection{
+    padding-left: 12px;
+    color: white;
+}
+    
+.recentlyAlbumFlex{
+    display: flex;
+}
+
+/* Third row */
+
+.fifthContentSection{
+    padding-left: 12px;
+    color: white;
+}
+
+.albumRadius{
+    border-radius: 50%;
+    width: 100%;
 }
 
 /*************************************************
