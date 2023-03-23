@@ -33,7 +33,8 @@ nav{
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .logo{
@@ -49,20 +50,11 @@ nav{
     display: none;
 }
 
-.navHome , .navCerca, .navLibreria{
-    margin-bottom: 5px;
-}
-
 .flex{
     display: flex;
     flex-direction: row;
     align-items: center;
     text-decoration: none;
-}
-
-.subTitleSidebar{
-    margin-left: 10px;
-    white-space: nowrap;
 }
 
 .boxCrea{
@@ -72,6 +64,77 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.subTitleSidebar{
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+#titlePlaylist{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.blockScroll{
+    height: calc(100% - 340px);
+}
+
+.scroll{
+    height: 100%;
+    overflow-y: auto;
+}
+
+ul{
+    list-style: none;
+    line-height: 35px;
+    margin: 20px;
+}
+
+.nomePlaylistStyle{
+    text-decoration: none;
+    color: white;
+}
+
+.sideBar2{
+    min-height: 120px;
+}
+
+.utente{
+    padding: 20px;
+}
+
+.dowloadApp {
+    border-bottom: 3px solid white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.installApp{
+    width: 20px;
+    margin-right: 10px;
+}
+
+#TextDecoration{
+    text-decoration: none;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.profileAccount{
+    width: 30px;
+    background-color: #999;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#colorText{
+    color: white;
 }
 
 
