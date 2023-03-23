@@ -281,10 +281,9 @@ footer{
     width: 100%;
     background-color: #222;
 }
-
+/* FOOTER LEFT */
 .footerLeft{
     display: flex;
-    justify-content: space-between;
     width: 250px;
     padding: 15px;
 }
@@ -327,4 +326,22 @@ i.far.fa-heart {
 
 i.far.fa-folder {
     color: white;
+}
+
+/* FOOTER RIGHT */
+
+.footerCenter{
+    width: calc(100% - 500px);
+    padding: 10px;
+}
+
+.commands{
+    display: flex;
+    justify-content: center;
+}
+
+.decorationFont{
+    margin: 10px;
+    color: white;
+    font-size: 1.5rem;
 }
