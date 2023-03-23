@@ -276,7 +276,55 @@ main {
 
 footer{
     display: flex;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
     background-color: #222;
+}
+
+.footerLeft{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: 15px;
+}
+
+.AlbumArtist {
+    display: flex;
+    align-items: center;
+}
+
+.imgAlbum {
+    margin-right: 8px;
+    width: 60px;
+}
+
+.NameMusic {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.loveSave {
+    display: flex;
+    align-items: center;
+}
+
+.love {
+    margin: 10px;
+}
+
+i.far.fa-heart {
+    color: white;
+}
+
+.save {
+    margin: 10px;
+}
+
+i.far.fa-folder {
+    color: white;
 }
