@@ -328,8 +328,7 @@ i.far.fa-folder {
     color: white;
 }
 
-/* FOOTER RIGHT */
-
+/* FOOTER CENTER */
 .footerCenter{
     width: calc(100% - 500px);
     padding: 10px;
@@ -344,4 +343,49 @@ i.far.fa-folder {
     margin: 10px;
     color: white;
     font-size: 1.5rem;
+}
+
+.state{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.timeNow, .timeMusic{
+    color: white;
+}
+
+.bar{
+    width: 100%;
+    height: 7px;
+    margin: 0 20px;
+    background-color: grey;
+}
+
+.stateBar{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
+
+/* FOOTER RIGHT */
+.footerRight{
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sound{
+    width: 100%;
+    height: 7px;
+    margin-right: 10px;
+    background-color: grey;
+}
+
+.stateSound{
+    height: 100%;
+    width: 20%;
+    background-color: white;
 }
