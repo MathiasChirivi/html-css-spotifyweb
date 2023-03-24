@@ -280,6 +280,7 @@ footer{
     height: 100%;
     width: 100%;
     background-color: #222;
+    overflow: hidden;
 }
 /* FOOTER LEFT */
 .footerLeft{
@@ -459,6 +460,70 @@ i.far.fa-folder {
     }
     .utente{
         padding: 15px;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: right;
+    }
+    .firstContentSection{
+       margin-right: 80px;
+    }
+    #buttonUpgrade{
+        white-space: nowrap;
+        font-size: small;
+    }
+    .secondContentSection{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 20px;
+        padding: 18px;
+    }
+    .GeneriAlbumText{
+        margin: -10px;
+        line-height: 74px;
+    }
+    .recentlyAlbum {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .albumListen{
+        width: 44%;
+    }
+    footer{
+        width: 100%;
+    }
+    .footerLeft{
+        width: 25%;
+    }
+    .loveSave{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 10px;
+    }
+    .AlbumArtist ,.NameMusic,.loveSave{
+        width: 70%;
+    }
+    .footerRight{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+    }
+    .state{
+        width: 100%;
+    }
+    footer{
+        justify-content: space-between;
+    }
+    .footerCenter{
+        justify-content: end;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 28px;
+        align-items: center;
+        margin-left: 20px;
     }
 }
 
