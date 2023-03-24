@@ -427,6 +427,36 @@ i.far.fa-folder {
         width: 30%;
     }
 } 
+
+@media screen and (max-width: 540px){
+    .secondContentSection{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0px;
+        padding: 26px;
+    }
+    .GeneriAlbumText{
+        margin: 4px;
+        line-height: 40px;
+    }
+    .recentlyAlbum {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .album{
+        width: 100%;
+    }
+    .albumListen{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 50%;
+    }
+}
+
 /* MOBILE */
 @media screen and (max-width: 480px){
     main{
